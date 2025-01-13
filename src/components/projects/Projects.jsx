@@ -57,7 +57,7 @@ function Projects() {
       ],
       github: "https://github.com/bob/soundtrack-emotion",
       demo: "#",
-      image: "/src/assets/SoundTrack of your emotion.png",
+      image: "/images/soundtrack-emotion.png",
     },
     {
       title: "Personalized Password Manager",
@@ -72,7 +72,7 @@ function Projects() {
       ],
       github: "https://github.com/bob/music-app",
       demo: "#",
-      image: "/images/music-app.png",
+      image: "/images/password-manager.png",
     },
     {
       title: "Personal Blog Website",

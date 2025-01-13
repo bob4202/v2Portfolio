@@ -55,7 +55,7 @@ function ProjectDetail() {
         },
       ],
       images: [
-        "/src/assets/SoundTrack of your emotion.png",
+        "/images/soundtrack-emotion.png",
         "/images/soundtrack-detail-1.png",
       ],
       github: "https://github.com/bob/soundtrack-emotion",
