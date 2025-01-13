@@ -1,0 +1,16 @@
+.Typewriter {
+  display: inline !important;
+}
+
+.Typewriter__wrapper {
+  display: inline !important;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+.Typewriter__cursor {
+  display: inline !important;
+}
