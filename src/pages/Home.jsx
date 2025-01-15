@@ -168,7 +168,7 @@ export function Home() {
           {/* Work Experience Section */}
           <section
             id="experience"
-            className="w-full h-screen bg-gradient-to-b from-[#0F0F0F] via-[#0F0F0F] to-[#1A1A1A]"
+            className="w-full min-h-screen flex items-center bg-gradient-to-b from-[#0F0F0F] via-[#0F0F0F] to-[#1A1A1A]"
           >
             <WorkExperiences />
           </section>

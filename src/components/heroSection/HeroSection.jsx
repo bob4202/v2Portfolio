@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { TypeWriterEffect } from "../typeWriterEffect/TypeWriterEffect";
+import profileImg from "@/assets/images/Profile.jpg";
 
 export function HeroSection() {
   return (
@@ -25,7 +26,7 @@ export function HeroSection() {
           className="w-48 md:w-60 flex-shrink-0 md:absolute md:right-16"
         >
           <img
-            src="src/assets/profile.jpg"
+            src={profileImg}
             alt="Profile"
             className="w-full h-full object-cover rounded-full"
           />

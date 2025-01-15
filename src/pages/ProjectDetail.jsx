@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import NavigationBar from "../components/Navbar";
 import { FaGithub } from "react-icons/fa";
 
+// Import images
+import soundtrackImg from "@/assets/images/SoundTrack of your emotion.png";
 function ProjectDetail() {
   const { slug } = useParams();
 
@@ -30,7 +32,10 @@ function ProjectDetail() {
             "Optimizing animations to ensure smooth performance without compromising the user experience or loading times.",
         },
       ],
-      images: ["/images/portfolio.png", "/images/portfolio-detail-1.png"],
+      images: [
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23333'/%3E%3C/svg%3E",
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23333'/%3E%3C/svg%3E",
+      ],
       github: "https://github.com/bob/portfolio",
     },
     "soundtrack-emotion": {
@@ -55,8 +60,8 @@ function ProjectDetail() {
         },
       ],
       images: [
-        "/images/soundtrack-emotion.png",
-        "/images/soundtrack-detail-1.png",
+        soundtrackImg,
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23333'/%3E%3C/svg%3E",
       ],
       github: "https://github.com/bob/soundtrack-emotion",
     },
@@ -81,8 +86,11 @@ function ProjectDetail() {
             "Creating an intuitive interface that makes password management simple and efficient.",
         },
       ],
-      images: ["/images/music-app.png", "/images/password-detail-1.png"],
-      github: "https://github.com/bob/music-app",
+      images: [
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23333'/%3E%3C/svg%3E",
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23333'/%3E%3C/svg%3E",
+      ],
+      github: "https://github.com/bob/password-manager",
     },
     "personal-blog": {
       title: "Personal Blog Website",
@@ -105,7 +113,10 @@ function ProjectDetail() {
             "Ensuring blog posts and content are optimized for search engines while maintaining good user experience.",
         },
       ],
-      images: ["/images/blog.png", "/images/blog-detail-1.png"],
+      images: [
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23333'/%3E%3C/svg%3E",
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23333'/%3E%3C/svg%3E",
+      ],
       github: "https://github.com/bob/blog",
     },
   };

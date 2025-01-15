@@ -51,14 +51,14 @@ export function WorkExperiences() {
   ];
 
   return (
-    <div className="w-full h-screen flex flex-col justify-center py-8 md:py-24">
-      <div className="max-w-[1440px] mx-auto px-4 md:px-12">
+    <div className="w-full flex items-center justify-center">
+      <div className="max-w-[1440px] w-full mx-auto px-4 md:px-12 py-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-center mb-8 md:mb-16 pt-16"
+          className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-fifth">
             Work Experience
@@ -69,7 +69,7 @@ export function WorkExperiences() {
           {/* Timeline line - Hidden on mobile */}
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-px bg-third hidden md:block" />
 
-          <div className="space-y-6 md:space-y-24">
+          <div className="space-y-12 md:space-y-24">
             {experiences.map((exp, index) => (
               <motion.div
                 key={index}

@@ -15,6 +15,8 @@ import {
 } from "react-icons/si";
 import NavigationBar from "../Navbar";
 
+// Import images
+import soundtrackImg from "@/assets/images/SoundTrack of your emotion.png";
 function Projects() {
   const fadeInUp = {
     initial: { opacity: 0, y: 20 },
@@ -42,7 +44,8 @@ function Projects() {
       ],
       github: "https://github.com/bob/portfolio",
       demo: "#",
-      image: "/images/portfolio.png",
+      image:
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23333'/%3E%3C/svg%3E",
     },
     {
       title: "Soundtrack of Your Emotion",
@@ -57,7 +60,7 @@ function Projects() {
       ],
       github: "https://github.com/bob/soundtrack-emotion",
       demo: "#",
-      image: "/images/soundtrack-emotion.png",
+      image: soundtrackImg,
     },
     {
       title: "Personalized Password Manager",
@@ -70,9 +73,10 @@ function Projects() {
         { name: "", icon: SiReact },
         { name: "", icon: SiPostgresql },
       ],
-      github: "https://github.com/bob/music-app",
+      github: "https://github.com/bob/password-manager",
       demo: "#",
-      image: "/images/password-manager.png",
+      image:
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23333'/%3E%3C/svg%3E",
     },
     {
       title: "Personal Blog Website",
@@ -85,7 +89,8 @@ function Projects() {
       ],
       github: "https://github.com/bob/blog",
       demo: "#",
-      image: "/images/blog.png",
+      image:
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect width='100' height='100' fill='%23333'/%3E%3C/svg%3E",
     },
   ];
 
@@ -189,7 +194,7 @@ function Projects() {
                             transition={{ duration: 0.2 }}
                             className="flex items-center gap-1 text-gray-400"
                           >
-                            <tech.icon className="text-xl md:text-2xl text-white hover:text-blue-500 transition-colors" />
+                            <tech.icon className="text-xl md:text-2xl text-white hover:text-third transition-colors" />
                             <span className="text-xs text-left">
                               {tech.name}
                             </span>
